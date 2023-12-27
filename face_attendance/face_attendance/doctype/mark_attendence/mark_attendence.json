@@ -1,0 +1,59 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-27 12:53:56.701269",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "employee_id",
+  "column_break_ldbym",
+  "employee_name",
+  "capture"
+ ],
+ "fields": [
+  {
+   "fieldname": "capture",
+   "fieldtype": "Attach Image",
+   "label": "capture"
+  },
+  {
+   "fieldname": "employee_id",
+   "fieldtype": "Data",
+   "label": "Employee id"
+  },
+  {
+   "fieldname": "column_break_ldbym",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "label": "Employee Name"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-12-27 13:03:11.512095",
+ "modified_by": "Administrator",
+ "module": "face Attendance",
+ "name": "Mark Attendence",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
